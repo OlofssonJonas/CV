@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/***ALL PAGES***/
+
+ 
+body{
+    /*background-image: url('Images/iceberg.jpg');
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;*/
+} 
+
+header{
+    background-color: red;
+    color: purple;
+    height: 70px;
+    left: 0px; 
+    top: 0px; 
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+.links{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    color: blue;
+}
+
+.links a {
+    display: block;
+    padding: 8px;
+    /*color: white;*/
+}
+
+h1{
+    text-align: left;
+}
+
+h2{
+ text-align: center; 
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+}
+
+h4 {
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+
+main{
+    width: 100%;
+    display: flex;
+    padding-right: 40px;
+   
+}
+
+
+aside{
+    /*position: fixed;*/
+   /* z-index: 2;*/
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+}
+
+aside img{
+    width: 100%;
+}
+
+i{
+    font-size: 200%;
+    color: blue;
+}
+
+footer{
+    font-family: cursive;
+    margin-top: 20rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+
+/***INDEX.HTML***/
+
+
+
+.welcome{
+    margin-top: 20px;
+    margin-left: 20%;
+    border-bottom: dotted;
+}
+
+ #characteristics h2{
+    margin-top: 0px;
+    margin-left: 20%;
+    text-align: center;
+} 
+
+#characteristics h4 {
+    font-size: 1rem;
+}
+
+
+.language{
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.educations {
+    font-weight: bold;
+    font-size: large;
+}
+
+ol{
+    margin: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.anchor_links{
+    width: 20%;
+}
+
+
+
+           /***FOR TABLETS***/
+
+
+ @media only screen and (max-width: 1200px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside{
+    margin-bottom: 20%;
+    margin-top: 20%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+img{
+    object-fit: fill;
+}
+
+section{
+    margin: 0;
+}
+
+ }
+
+
+
+
+        /****FOR MOBILE***/
+
+
+@media only screen and (max-width: 600px) {
+            
+/*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}*/
+
+header{
+    height: auto;
+}     
+            
+main{
+    margin-top: 70px;
+    /*width: 100%;*/
+}
+
+section{
+    width: 100%;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none ;
+}
+
+
+aside{
+    position: static;
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#welcome{
+    margin: 0;
+}
+
+#egenskaper{
+    margin: 0;
+}
+
+#skills{
+    margin-left: 0; 
+}
+
+}
