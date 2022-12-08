@@ -6,16 +6,21 @@
 
 /***ALL PAGES***/
 
- 
+.links a {
+    color: white;
+}
+
  body{
-    /*background-image: url('Images/iceberg.jpg');
-    background-size: fill;
+    background-image: url('Images/iceberg.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;*/
+    background-position: center;
 }  
 
 header{
     background-color: red;
+
+    background-size: cover;
     color: purple;
     height: 70px;
     left: 0px; 
@@ -47,15 +52,15 @@ a:hover{
 .links a {
     display: block;
     padding: 8px;
-    /*color: white;*/
+    color: black;
 }
 
 h1{
-    text-align: left;
+    text-align: center;
 }
 
 h2{
- text-align: center; 
+    text-align: center; 
     font-family: cursive;
     text-decoration: underline;
 }
@@ -74,7 +79,6 @@ main{
     width: 100%;
     display: flex;
     padding-right: 40px;
-   
 }
 
 
@@ -106,6 +110,7 @@ footer{
     justify-content: space-between;
     padding-right: 2%;
     padding-left: 2%;
+    background-color: lightgrey;
 }
 
 
@@ -118,12 +123,12 @@ footer{
     margin-left: 10%;
     border-bottom: dotted;
 }
-
+/* 
  #characteristics h2{
     margin-top: 0px;
     margin-left: 20%;
     text-align: center;
-} 
+}  */
 
 #characteristics h4 {
     font-size: 1rem;
