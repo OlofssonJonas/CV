@@ -10,16 +10,15 @@
     color: white;
 }
 
- body{
+ /* body{
     background-image: url('Images/iceberg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}  
+}   */
 
 header{
-    background-color: red;
-
+    background-color: lightgray;
     background-size: cover;
     color: purple;
     height: 70px;
@@ -110,7 +109,8 @@ footer{
     justify-content: space-between;
     padding-right: 2%;
     padding-left: 2%;
-    background-color: lightgrey;
+    background-color: lightgray;
+
 }
 
 
@@ -158,31 +158,6 @@ ol{
 .anchor_links{
     width: 20%;
 }
-
-
-
-           /***FOR TABLETS***/
-/* 
-
- @media only screen and (max-width: 900px){
-    *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-aside{
-    margin-bottom: 20%;
-    margin-top: 20%;
-    display: flex;
-    flex-direction: column;
-}
-
-img{
-    object-fit: fill;
-}
-
- } */
 
 
 
@@ -237,4 +212,6 @@ aside{
     display: flex;
     flex-direction: column;
 }
+
+
 }
