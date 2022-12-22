@@ -32,7 +32,6 @@ header{
     flex-direction: column;
 }
 
-
 a:link{
     text-decoration: none;
 }
@@ -48,10 +47,14 @@ a:hover{
     color: blue;
 }
 
+.links a:hover {
+    color: blue;
+}
+
 .links a {
     display: block;
     padding: 8px;
-    color: black;
+    color: purple;
 }
 
 h1{
@@ -73,13 +76,11 @@ h4 {
     font-size: 1.5rem;
 }
 
-
 main{
     width: 100%;
     display: flex;
     padding-right: 40px;
 }
-
 
 aside{
     /*position: fixed;*/

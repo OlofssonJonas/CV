@@ -9,8 +9,8 @@ for (const skill of mySkills) {
         p.classList.add("language");
         p.innerText = skill;
         skills.append(p);
-
     }
+    
 
 const myLearningSkills = ["React"];
 
